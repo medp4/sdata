@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-csv_github_url = 'https://raw.githubusercontent.com/ymedp4/sdata/pv_simulation_data.csv'
+csv_github_url = 'https://raw.githubusercontent.com/medp4/sdata/main/pv_simulation_data.csv'
 
 # Load the CSV data from the GitHub URL using st.cache_resource
 @st.cache_resource
