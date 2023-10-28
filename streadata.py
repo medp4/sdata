@@ -11,12 +11,12 @@ def load_data(github_url):
 
 # Main function
 def main():
-    st.title("Projet Med I")
+    st.title("Projet avec M. Tahani Abdelouahad")
 
     try:
         data = load_data(csv_github_url)
 
-        st.subheader("Line Charts")
+        st.subheader("graphs relatifs aux séries temporelles")
         for column in data.columns[1:]:
             st.subheader(column)
             st.line_chart(data.set_index("Time")[column])
