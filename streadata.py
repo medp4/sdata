@@ -22,7 +22,7 @@ def main():
             st.line_chart(data.set_index("Time")[column])
 
     except Exception as e:
-        st.error(f"Error loading the CSV file from GitHub: {str(e)}")
+        st.error(f"Erreur de chargement de la base de données: {str(e)}")
 
 if __name__ == "__main__":
     main()
