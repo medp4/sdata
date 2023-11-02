@@ -11,7 +11,7 @@ def load_data(github_url):
 
 # Main function
 def main():
-    st.title("Test projet collecte de data")
+    st.title("Test avec M Abdelouahed")
 
     try:
         data = load_data(csv_github_url)
